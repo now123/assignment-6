@@ -1,0 +1,47 @@
+#que1
+print ("the time in pyton is presented in a way so that user can understand it, n python stores it in tuples")
+#QUE2-
+import time;
+
+localtime = time.asctime( time.localtime(time.time()) )
+print ("Local current time :", localtime)
+
+#QUE 3
+import datetime
+d=datetime.date.today()
+d.strftime("%d %m %y")
+print(d.day)
+
+#QUE 4
+from datetime import datetime
+datetime_fomat = '%Y-%m-%d'
+date="2014-06-15"
+strp_date = datetime.strptime(date, datetime_fomat)
+print (strp_date.month)
+
+#QUE 5
+import datetime
+d=datetime.date.today()
+d.strftime("%d %m %y")
+print(d.day)
+
+#QUE6
+import time
+localtime =time.asctime(time.localtime(time.time()))
+print ("local current time",localtime)
+
+#QUE7
+import math
+a=int(input("enter the no"))
+print (math.factorial(a))
+
+#Que8
+import math
+a=int(input("enter the the no.1"))
+b=int(input("enter the the no.2"))
+print (math.gcd(a,b))
+
+#QUE9
+import os
+print (os.getcwd())
+print (os.environ)
