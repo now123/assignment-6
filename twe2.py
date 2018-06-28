@@ -1,7 +1,7 @@
 #QUE 1-
 print("An access token is an object that describes the security context of a process or thread. The information in a token includes the identity and privileges of the user account associated with the process or thread.")
 import tweepy
-access_token=1002830618831478785-KGYSD9LlrkiL4qSJbIortGaPM2JfYa
+access_token="1002830618831478785-KGYSD9LlrkiL4qSJbIortGaPM2JfYa"
 print (access_token)
 
 
